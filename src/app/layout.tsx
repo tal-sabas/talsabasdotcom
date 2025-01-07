@@ -34,17 +34,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <head>
-        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-      </head> */}
-      {/* <body className={`${geistSans.variable} ${geistMono.variable}`}> */}
       <body className={poppins.variable}>
         <ThemeProvider theme={theme}>
           <CssBaseline />
           {children}
           <Footer />
         </ThemeProvider>
-        {/* <Script strategy="beforeInteractive" src="https://cloud.umami.is/script.js" data-website-id="a63010b3-df7f-47a3-8fb0-5649ae2be870" /> */}
+        <Script strategy="beforeInteractive" src="https://cloud.umami.is/script.js" data-website-id="a63010b3-df7f-47a3-8fb0-5649ae2be870" />
       </body>
     </html>
   );
