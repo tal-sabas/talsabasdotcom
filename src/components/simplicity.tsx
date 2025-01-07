@@ -18,7 +18,7 @@ export default function Simplicity() {
     return (
         <Fade in={inView} ref={ref} timeout={1500}>
             <Box>
-                <Typography mt={4} variant='h4' fontWeight='bold' gutterBottom textAlign={{ xs: 'center', md: 'left' }}>I believe in simplicity</Typography>
+                <Typography mt={4} variant='h4' fontWeight='bold' gutterBottom textAlign={{ xs: 'center', md: 'left' }}>I Believe in Simplicity</Typography>
                 <Typography>
                     Over the years I've come to realize that often times, the simplest solution is the one that works best.
                     When I problem solve, I always ask myself: "Does this solution make sense and is simple to maintain?" If the answer is no, then
