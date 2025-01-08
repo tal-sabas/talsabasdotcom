@@ -10,7 +10,6 @@ export const getTechStacks = () => {
         '/tableau.png',
         '/react.png',
         '/spark-logo.png',
-        '/spark-white.png',
         '/postgres.png',
         '/docker.webp',
         '/kubernetes-logo.png',
