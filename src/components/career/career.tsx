@@ -3,6 +3,9 @@
 import { Box, Fade, Stack, Typography } from "@mui/material";
 import { useInView } from "react-intersection-observer";
 import CertificationBadge from "../certification/certification-badge";
+import Link from "next/link";
+
+const ACQUISTION_LINK = 'https://constellation.coop/2022/08/23/constellation-strengthens-its-digital-service-offerings-with-the-acquisition-of-walletfi/';
 
 export default function Career() {
 
@@ -27,7 +30,7 @@ export default function Career() {
                     <Typography variant="body1">I started my career working at an enterprise e-commerce
                         firm, getting my hands dirty with web development and learning the ins and outs of the software development lifecycle.
                         On the continual quest for learning and growth, I later transitioned into a role at a small startup where I was able to wear many hats and fully
-                        take a product from idea to reality. Through a successful acquisition, I worked my way up to Director of Enterprise
+                        take a product from idea to reality. Through a successful <Link href={ACQUISTION_LINK} target="_blank">acquisition</Link>, I worked my way up to Director of Enterprise
                         Architecture at Constellation Digital Partners, where I was able to lead a team of developers and architects in building
                         scalable and efficient solutions on the AWS cloud.
                     </Typography>
